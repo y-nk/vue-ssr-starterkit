@@ -5,6 +5,8 @@
       <router-link :to="{ name: 'about' }">about</router-link>
      </div>
 
+    <pre>{{ $store.state }}</pre>
+
     <router-view class="view"></router-view>
   </div>
 </template>
